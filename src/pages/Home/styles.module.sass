@@ -1,0 +1,17 @@
+.backgroundImage
+    position: relative
+    background: url(../../assets/wallpaper.png)
+    background-size: cover
+    background-repeat: no-repeat
+    height: 67.5rem
+
+.backgroundImage::before
+    content: ""
+    position: absolute
+    bottom: 0
+    left: 0
+    height: 25rem
+    width: 100%
+    flex-shrink: 0rem
+    background: linear-gradient(0deg, #14061F 12%, rgba(20, 6, 31, 0.00) 100%)
+    z-index: 1
